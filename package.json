@@ -4,9 +4,8 @@
   "private": true,
   "license": "MIT",
   "main": "index.js",
-  
   "scripts": {
-    "test": "vitest",
+    "test": "vitest --watch",
     "test:ui": "vitest --ui",
     "test:run": "vitest run"
   },
@@ -17,5 +16,8 @@
   },
   "stackblitz": {
     "startCommand": "npm run test:ui"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0"
   }
 }
